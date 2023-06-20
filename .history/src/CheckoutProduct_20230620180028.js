@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
 import './CheckoutProduct.css';
@@ -10,7 +9,6 @@ function CheckoutProduct({ id, image, title, price, rating }) {
   const removeFromBasket = () => {
     dispatch({
       type: 'REMOVE_FROM_BASKET',
-      id: id,
     })
   }
 

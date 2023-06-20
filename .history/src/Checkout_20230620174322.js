@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from "react"
 import "./Checkout.css";
 import Subtotal from "./Subtotal"
@@ -19,6 +18,13 @@ function Checkout() {
 
                 <div>
                     <h2 className="checkout__title">Your Shopping Basket</h2>
+                    <CheckoutProduct
+                            id={"112342"}
+                            title={"This is a test"}
+                            image={item.image}
+                            price={item.price}
+                            rating={item.rating}
+                        />
 
                     {basket.map(item => (
                         <CheckoutProduct
@@ -30,6 +36,10 @@ function Checkout() {
                         />
                     ))}
 
+                    {/* CheckoutProduct */}
+                    {/* CheckoutProduct */}
+                    {/* CheckoutProduct */}
+                    {/* CheckoutProduct */}
                 </div>
             </div>
 

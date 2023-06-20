@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from "react"
 import "./Checkout.css";
 import Subtotal from "./Subtotal"
