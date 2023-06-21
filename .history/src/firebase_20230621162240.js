@@ -1,6 +1,3 @@
-/* eslint-disable no-unused-vars */
-import firebase from "firebase";
-
 const firebaseConfig = {
   apiKey: "AIzaSyBqEGumQaAzzKyggCC_YPdAx1d3CjgxShI",
   authDomain: "clone-f7a6f.firebaseapp.com",
@@ -11,5 +8,3 @@ const firebaseConfig = {
   appId: "1:202796772883:web:c5b855cdce743c7e0599e6",
   measurementId: "G-DTN8CX7QWC"
 };
-
-const firebaseApp = firebase.initializeApp(firebaseConfig);

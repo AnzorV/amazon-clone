@@ -9,12 +9,10 @@ function Login() {
     const [password, setPassword] = useState('');
 
     const signIn = e => {
-        e.preventDefault();
+        e.preventDefault()
     }
 
-    const register = e => {
-        e.preventDefault();
-    } 
+    const register = 
 
     return (
         <div className='login'>

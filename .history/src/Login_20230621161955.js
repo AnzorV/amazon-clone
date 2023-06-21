@@ -9,11 +9,11 @@ function Login() {
     const [password, setPassword] = useState('');
 
     const signIn = e => {
-        e.preventDefault();
+        e.preventDefault()
     }
 
     const register = e => {
-        e.preventDefault();
+        e.preventDefault()
     } 
 
     return (

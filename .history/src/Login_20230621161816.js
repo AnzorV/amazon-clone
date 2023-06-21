@@ -9,12 +9,8 @@ function Login() {
     const [password, setPassword] = useState('');
 
     const signIn = e => {
-        e.preventDefault();
-    }
 
-    const register = e => {
-        e.preventDefault();
-    } 
+    }
 
     return (
         <div className='login'>
@@ -43,7 +39,7 @@ function Login() {
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 
-                <button onClick={register} className='login__registerButton'>Create your Amazon Account</button>
+                <button className='login__registerButton'>Create your Amazon Account</button>
             </div>
         </div>
     )
