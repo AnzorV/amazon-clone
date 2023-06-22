@@ -1,7 +1,5 @@
 /* eslint-disable no-unused-vars */
-import firebase from 'firebase/compat/app';
-import 'firebase/compat/auth';
-import 'firebase/compat/firestore';
+import firebase from 'firebase';
 
 const firebaseConfig = {
   apiKey: "AIzaSyBqEGumQaAzzKyggCC_YPdAx1d3CjgxShI",

@@ -40,8 +40,7 @@ const reducer = (state, action) => {
         
         case "SET_USER":
             return {
-                ...state,
-                user: action.user
+                ...state
             }
 
         default:

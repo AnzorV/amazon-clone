@@ -1,5 +1,3 @@
-/* eslint-disable no-empty-pattern */
-/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable no-unused-vars */
 import React, { useEffect } from 'react';
 import './App.css';
@@ -21,15 +19,8 @@ function App() {
 
         if (authUser) {
 
-          dispatch({
-            type: 'SET_USER',
-            user: authUser
-          })
         } else {
-          dispatch({
-            type: 'SET_USER',
-            user: null
-          })
+
         }
     })
   }, [])
