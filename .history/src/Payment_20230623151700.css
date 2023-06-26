@@ -1,0 +1,9 @@
+.payment {
+    background-color: white;
+}
+
+.payment__container {
+    text-align: center;
+    padding: 10px;
+    
+}

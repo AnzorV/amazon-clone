@@ -50,6 +50,7 @@ function App() {
           <Route path="/payment">
             <Header />
             <Payment />
+            <h1>The payment route</h1>
           </Route>
           <Route path="/">
             <Header />
